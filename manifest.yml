@@ -1,0 +1,12 @@
+---
+applications:
+- name: my-app2
+  memory: 1024M
+  instances: 1
+  path: build/libs/stresstest-0.0.1-SNAPSHOT.jar
+  services:
+    - postGreSQL
+
+
+
+
